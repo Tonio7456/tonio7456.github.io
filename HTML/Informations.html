@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informations</title>
+    <link rel="shortcut icon" href="../Pictures/LogoUbs.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/Style.css">
+</head>
+<body>
+    <a href="Index.html"><img src="../Pictures/logoENSIBS.png" alt="Logo ENSIBS"></a>
+    <div class="container_informations">
+        <h2>Plus d'informations</h2>
+        <iframe 
+            src="https://www-ensibs.univ-ubs.fr/fr/index.html" 
+            id="Iframe_ENSIBS" 
+            height="300px" 
+            width="100%">
+        </iframe>
+        <h3>Découvrir plus d'informations sur notre site : <a target="_blank" href="https://www-ensibs.univ-ubs.fr/fr/formations/formations-d-ingenieurs/genie-industriel-4-0.html">ici</a></h3>
+    </div>
+
+    <div class="container_informations">
+        <h2>Nous contacter</h2>
+        <h3 id="MyfooterJS2">Retrouvez-nous sur notre site de Lorient.</h3>
+        <button type="button" onclick="myFunction()" id="button-myfooter">Retrouvez-nous !</button>
+        <script>
+            function myFunction() {
+                document.getElementById("MyfooterJS2").style.fontSize = "35px";
+                document.getElementById("MyfooterJS2").style.color = "black";
+                document.getElementById("MyfooterJS2").style.backgroundColor = "#97da91";
+                document.getElementById("MyfooterJS2").innerHTML = "Adresse : 17 Bd Flandres Dunkerque 1940, 56100 Lorient";
+            }
+        </script>
+
+        <h2>Dernière consultation</h2>
+        <button type="button" id="button-myfooter" onclick="document.getElementById('consultation').innerHTML = new Date().toLocaleString('fr-FR', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' })">
+            Cliquer ici
+        </button>
+        <p id="consultation"></p>
+    </div>
+</body>
+</html>

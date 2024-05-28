@@ -1,0 +1,36 @@
+/* Tables  */
+table {
+    border-collapse: collapse; /* bordures adjacentes des cellules */
+}
+
+td, th /* Mettre une bordure sur les td ET les th */ {
+    border: 1px solid black;
+}
+
+.Tableau {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.Tableau table {
+    width: 80%;
+}
+
+.Tableau th, .Tableau td {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.Tableau thead {
+    background-color: rgb(228, 228, 228);
+    font-weight: bold;
+}
+
+.tableFormation tr:nth-child(even) {
+    background-color: #cbedfa;
+}
+
+.tableFormation td:nth-child(even){
+    background-color: #cbedfa;
+}

@@ -1,0 +1,198 @@
+/* Styles for the Header */
+header {
+    background-image: url('/Pictures/DevantureENSIBS.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* hauteur de l'en-tête */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    transition: height 0.3s; /* Animation de transition pour la hauteur */
+    font-weight: bold;
+  }
+
+
+/* Styles pour la présentation */
+h2 {
+    font-size: 18px; /* Modification de la taille du titre */
+    color: dimgray; /* Modification de la couleur du titre */
+}
+
+/* Styles pour les sections */
+div {
+    font-size: 18px; /* Modification de la taille du corps */
+    color: dimgray; /* Modification de la couleur du corps */
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+   
+nav a {
+    background-color: gray;
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav a.active {
+    background-color: black;
+    color: #333;
+}
+
+nav ul li a.active {
+    color: #007bff;
+}
+
+nav button {
+    margin: 10px; /* Marge entre les boutons */
+  }
+  
+/* Styles for the navigation */
+nav {
+    margin-left: 6%;
+    display: flex;
+}
+
+/* Styles for the main content sections */
+main section {
+    padding: 2rem;
+    margin-left: 7%;
+}
+
+main{
+    width: 1100px;
+}
+
+main h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+   
+main p {
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.Section img {
+    display: block; 
+    margin: 0 auto; /* Centre l'image horizontalement */
+    max-width: 100%; 
+    height: auto; 
+}
+
+.Ennonce {
+    display: flex;
+    justify-content: center;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.Ennonce-left, .Ennonce-right {
+    flex: 1;
+    text-align: left;
+}
+
+.Ennonce-left h3, .Ennonce-right h3 {
+    color: green;
+    font-weight: 700;
+    line-height: 29px;
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 15px;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.Contact {
+    position: relative;
+    top: 30px;
+    width: 300px; /* ou la largeur souhaitée */
+    margin-right: 50px;
+    padding: 20px; /* ou l'espacement souhaité */
+    background-color: #ffffff; /* couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre portée */
+    z-index: 999; /* pour s'assurer que la section reste au-dessus des autres éléments */
+}
+.Contactbis {
+    position: relative;
+    top: 30px;
+    width: 300px; /* ou la largeur souhaitée */
+    margin-right: 50px;
+    padding: 20px; /* ou l'espacement souhaité */
+    background-color: #ffffff; /* couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ombre portée */
+    z-index: 999; /* pour s'assurer que la section reste au-dessus des autres éléments */
+}
+
+.Contact img{ 
+    width: 15px;
+    max-width: 100%; 
+    height: auto; 
+}
+
+.Contact span{
+    color:dimgray;
+}
+
+
+#myfooter {
+    background-color: lightblue;
+    color: black;
+    padding: 40px;
+    text-align: center;
+}
+
+#myfooterJS {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    text-transform: uppercase; /* Transformer le texte en majuscule */
+    letter-spacing: 2px;
+}
+
+#myfooterJS:hover { /* Styles lorsque l'élément "myfooter est survolé */
+    color: green;
+}
+
+#button-myfooter{
+    display: block;
+    margin: 20px auto;
+    border: black;
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+    border: 5px solid black;
+    padding: 15px 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman';
+}
+
+#button-myfooter:hover {
+    background-color: green;
+}
+
+iframe{
+    height: 550px;
+    width: 100%;
+}
