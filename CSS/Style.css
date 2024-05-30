@@ -14,6 +14,9 @@ header {
     font-weight: bold;
   }
 
+footer p{
+    text-align: center;
+}
 
 /* Styles pour la présentation */
 h2 {
@@ -195,4 +198,8 @@ label {
 iframe{
     height: 550px;
     width: 100%;
+}
+
+.Informations{
+    margin: 200px 300px 0 300px;
 }
